@@ -201,6 +201,7 @@ def get_packages(interface):
     interface.success("I've finished installing the required Android packages.")
 
 def generate_keys(interface):
+    # Change this method to allow for custom keystore passwords
 
     update_properties = True
 

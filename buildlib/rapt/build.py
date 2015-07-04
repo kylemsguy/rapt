@@ -388,6 +388,9 @@ def split_renpy(directory):
 
 def build(iface, directory, commands, launch=False, finished=None):
 
+    # Modify to ask for a Keystore password if none exists
+    # or add setting to build for production
+
     # Are we doing a Ren'Py build?
 
     global RENPY
